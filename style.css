@@ -3,7 +3,7 @@ body{
     font-family: Roboto, Georgia;
 }
 .header{
-    padding: 0 350px;
+    padding: 0 250px;
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
@@ -23,12 +23,12 @@ li{
     gap: 30px;
     color: #F9FAF8;
     display: flex;
-    padding: 0 350px;
+    padding: 0 250px;
     background-color: #1F2937;
     align-items: center;
     height: 500px;
 }
-.greetingsmaintext{
+h1{
     margin: 0px;
     text-wrap: wrap;
     font-size: 48px;
@@ -60,4 +60,36 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #6D747D;
+}
+.additionalinfo{
+    padding: 0 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    font-size: 36px;
+
+}
+.image-placeholder{
+    width: 150px;
+    height: 150px;
+    border-width: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+.subtext{
+    text-align: center;
+    color: #6D747D;
+    width: 158px;
+}
+.imageboxes{
+    padding: 15px 0;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
