@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    font-family: Roboto, Georgia;
 }
 .header{
     padding: 0 250px;
@@ -92,4 +91,17 @@ h2{
     gap: 50px;
     display: flex;
     flex-wrap: wrap;
+}
+.quote{
+    margin-top: 100px;
+    padding: 100px 450px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quotedperson{
+    text-align: right;
+    font-weight: bold;
 }
