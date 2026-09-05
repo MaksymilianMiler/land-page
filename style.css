@@ -44,7 +44,7 @@ button{
     background-color: #3882F6;
     border-radius: 8px;
     border-width: 0px;
-    padding: 10px 30px;
+    padding: 5px 30px;
     font-weight: bold;
 }
 .greetings-left{
@@ -104,4 +104,29 @@ h2{
 .quotedperson{
     text-align: right;
     font-weight: bold;
+}
+.interactivebar{
+    padding: 50px 150px;
+    margin: 100px 250px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    color:#E5E7EB;
+}
+.interactmain{
+    font-weight: bold;
+    font-size: 24px;
+}
+p{
+    margin: 0px;
+}
+.whiteborder{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E5E7EB;
+}
+.interact-right{
+    display: flex;
+    align-items: center;
 }
